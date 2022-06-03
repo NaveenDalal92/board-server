@@ -19,7 +19,7 @@ let dbData = {
 };
 
 io.on("connection", (socket) => {
-  console.log(`${socket.id} connected`);
+  console.log(`${socket.id}  connected`);
 
   socket.on("join", (data) => {
     socket.join(1);
